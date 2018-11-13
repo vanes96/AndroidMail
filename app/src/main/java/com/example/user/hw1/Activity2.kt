@@ -11,6 +11,7 @@ class Activity2 : AppCompatActivity()
 {
     private val secondsValueKey: String = "secondsValueKey"
     private val isTimerStartedKey: String = "isTimerStartedKey"
+    private val timeToStart = 1000
     private val ten: Int = 10
     private val hundred: Int = 100
     private val second: Int = 1000
@@ -40,7 +41,7 @@ class Activity2 : AppCompatActivity()
             if (isTimerStarted)
                 stopTimer()
             else
-                startTimer(30)
+                startTimer(timeToStart)
         }
 
         if (savedInstanceState != null)
@@ -57,7 +58,7 @@ class Activity2 : AppCompatActivity()
         }
         else
         {
-            timer = createTimer(30)
+            timer = createTimer(timeToStart)
         }
     }
 

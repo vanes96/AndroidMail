@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity()
 {
-    val timeToStart = 10000
+    val timeToStart = 2000
     var isTimerStarted = false
     private val timeKey = "timeKey"
     private val isTimerStartedKey = "isTimerStartedKey"
