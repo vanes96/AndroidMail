@@ -11,7 +11,7 @@ class Activity2 : AppCompatActivity()
 {
     private val currentTimeKey: String = "currentTimeKey"
     private val totalTime = 1000
-    private val startTime = 975
+    private val startTime = 0
     private val second: Int = 1000
     private val hundred: Int = 100
     private val ten: Int = 10
